@@ -39,18 +39,18 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 
 ## How to start
 
-You can download the theme manually by going to [https://github.com/rhazdon/hugo-theme-hello-friend-ng.git](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) and pasting it to `themes/hello-friend-ng` in your root directory.
+You can download the theme manually by going to [https://github.com/neslinesli93/hugo-theme-hello-friend-ng.git](https://github.com/neslinesli93/hugo-theme-hello-friend-ng.git) and pasting it to `themes/hello-friend-ng` in your root directory.
 
 You can also clone it directly to your Hugo folder:
 
 ```
-$ git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git clone https://github.com/neslinesli93/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
 ```
 
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. To do so, include it as a git submodule:
 
 ```
-$ git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git submodule add https://github.com/neslinesli93/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
 ```
 ### Favicon
 
@@ -159,7 +159,7 @@ $ npm install
 
 ## How to contribute
 
-If you spot any bugs, please use [Issue Tracker](https://github.com/rhazdon/hugo-theme-hello-friend-ng/issues) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/rhazdon/hugo-theme-hello-friend-ng/pulls).
+If you spot any bugs, please use [Issue Tracker](https://github.com/neslinesli93/hugo-theme-hello-friend-ng/issues) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/neslinesli93/hugo-theme-hello-friend-ng/pulls).
 
 
 ## Third Party
@@ -173,4 +173,4 @@ If you spot any bugs, please use [Issue Tracker](https://github.com/rhazdon/hugo
 
 Copyright © 2019 Djordje Atlialp
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md) for additional licensing information.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/neslinesli93/hugo-theme-hello-friend-ng/blob/master/LICENSE.md) for additional licensing information.
