@@ -36,6 +36,19 @@ body {
   &.dark-theme {
     background-color: $dark-background;
     color: $dark-color;
+
+    .feather-medium-light {
+      display: none;
+    }
+
+    .feather-medium-dark {
+      display: inline;
+      stroke: $dark-color;
+    }
+  }
+
+  .feather-medium-dark {
+    display: none;
   }
 }
 
@@ -299,6 +312,10 @@ hr {
 	top: 5px;
 	width: auto;
 	z-index: 100000;
+}
+
+#home-social a {
+  text-decoration: none;
 }
 
 // #home-center {
