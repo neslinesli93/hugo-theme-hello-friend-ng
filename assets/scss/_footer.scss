@@ -11,7 +11,7 @@
     width: 760px;
     max-width: 100%;
 
-    @media #{$media-size-tablet} {
+    @media #{$media-size-small-phone} {
       flex-direction: column;
     }
   }
@@ -23,7 +23,7 @@
     font-size: 1rem;
     color: $light-color-secondary;
 
-    @media #{$media-size-tablet} {
+    @media #{$media-size-small-phone} {
       flex-direction: column;
       margin-top: 10px;
     }
@@ -32,7 +32,7 @@
       border-right: 1px solid;
       padding: 0 15px;
 
-      @media #{$media-size-tablet} {
+      @media #{$media-size-small-phone} {
         border: none;
       }
     }
