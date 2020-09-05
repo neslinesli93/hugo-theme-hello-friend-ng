@@ -28,9 +28,9 @@
       margin-top: 10px;
     }
 
-    & > *:not(:last-child) {
-      border-right: 1px solid;
-      padding: 0 15px;
+    & > *:not(:last-child)::after {
+      content: "•";
+      padding: 0 5px;
 
       @media #{$media-size-small-phone} {
         border: none;
@@ -38,7 +38,11 @@
     }
 
     & > *:last-child {
-      padding: 0 15px;
+      padding: 0 5px;
+
+      @media #{$media-size-tablet} {
+        padding: 0;
+      }
     }
   }
 }
